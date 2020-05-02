@@ -1,0 +1,39 @@
+body {
+    background-color: silver;
+}
+form {
+    width: 400px;
+    background-color: skyblue;
+    margin: auto;
+    opacity: 0.8;
+    min-height: 300px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 3px solid black;
+}
+.name-style {
+    font-size: 20px;
+}
+.nick-style {
+    font-size: 20px;
+}
+.your-name {
+    font-size: 15px;
+}
+.your-nick{
+    font-size: 15px;
+}
+.save-button {
+    margin-left: 230px;
+    margin-top: 5px;
+    height: 40px;
+    width: 100px;
+}
+.save-button:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}

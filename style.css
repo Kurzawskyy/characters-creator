@@ -6,23 +6,22 @@ form {
     background-color: skyblue;
     margin: auto;
     opacity: 0.8;
-    min-height: 300px;
+    min-height: 370px;
 }
 h1 {
     text-align: center;
     font-size: 40px;
     border-bottom: 3px solid black;
 }
-.name-style {
+.caption {
     font-size: 20px;
+    margin-left: 10px;
 }
-.nick-style {
-    font-size: 20px;
-}
-.your-name {
+.text-window {
     font-size: 15px;
+    margin-left: 10px;
 }
-.your-nick{
+.choose {
     font-size: 15px;
 }
 .save-button {

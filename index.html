@@ -12,10 +12,31 @@
 <body>
     <form>
         <h1>Stwórz swoją własną postać!!!</h1>
-        <label class="name-style" for="name">Imię:</label><br>
-        <input type="text" id="name" class="your-name" name="y-name" value=""><br>      
-        <label class="nick-style" for="nick">Nowy Nick:</label><br>
-        <input type="text" id="nick" class="your-nick" name="y-nick" value=""><br><br>
+        <label class="caption" for="name">Imię:</label><br>
+        <input type="text" id="name" class="text-window" name="y-name" value=""><br>  
+
+        <label class="caption" for="nick">Nowy Nick:</label><br>
+        <input type="text" id="nick" class="text-window" name="y-nick" value=""><br>
+
+        <label class="caption" for="gender">Płeć:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="choose">Mężczyzna</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="choose">Kobieta</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other" class="choose">Inna</label><br>
+
+        <label class="caption" for="section">Typ:</label><br>
+        <input type="radio" id="attack" name="section" value="attack">
+        <label for="attack" class="choose">Atak</label>
+        <input type="radio" id="defense" name="section" value="defense">
+        <label for="defense" class="choose">Obrona</label>
+        <input type="radio" id="tank" name="section" value="tank">
+        <label for="tank" class="choose">Tank</label>
+        <input type="radio" id="healer" name="section" value="helaer">
+        <label for="healer" class="choose">Lekarz</label>
+        <input type="radio" id="sniper" name="section" value="sniper">
+        <label for="sniper" class="choose">Snajper</label> <br><br>
         <button type="submit" class="save-button">ZATWIERDŹ</button>
       </form> 
 </body>

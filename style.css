@@ -21,7 +21,10 @@ h1 {
     font-size: 15px;
     margin-left: 10px;
 }
-.choose {
+.select-window {
+    margin-left: 20px;
+}
+.choice {
     font-size: 15px;
 }
 .save-button {

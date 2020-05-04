@@ -26,17 +26,15 @@
         <input type="radio" id="other" name="gender" value="other">
         <label for="other" class="choose">Inna</label><br>
 
-        <label class="caption" for="section">Typ:</label><br>
-        <input type="radio" id="attack" name="section" value="attack">
-        <label for="attack" class="choose">Atak</label>
-        <input type="radio" id="defense" name="section" value="defense">
-        <label for="defense" class="choose">Obrona</label>
-        <input type="radio" id="tank" name="section" value="tank">
-        <label for="tank" class="choose">Tank</label>
-        <input type="radio" id="healer" name="section" value="helaer">
-        <label for="healer" class="choose">Lekarz</label>
-        <input type="radio" id="sniper" name="section" value="sniper">
-        <label for="sniper" class="choose">Snajper</label> <br><br>
+        <label class="caption" for="section">Typ</label>
+        <select class="select-window" name="section" id="section">
+            <option value="attack">Atak</option>
+            <option value="defense">Obrona</option>
+            <option value="tank">Tank</option>
+            <option value="healer">Lekarz</option>
+            <option value="sniper">Snajper</option>
+        </select>
+
         <button type="submit" class="save-button">ZATWIERDŹ</button>
       </form> 
 </body>

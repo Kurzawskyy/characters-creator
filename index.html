@@ -12,10 +12,29 @@
 <body>
     <form>
         <h1>Stwórz swoją własną postać!!!</h1>
-        <label class="name-style" for="name">Imię:</label><br>
-        <input type="text" id="name" class="your-name" name="y-name" value=""><br>      
-        <label class="nick-style" for="nick">Nowy Nick:</label><br>
-        <input type="text" id="nick" class="your-nick" name="y-nick" value=""><br><br>
+        <label class="caption" for="name">Imię:</label><br>
+        <input type="text" id="name" class="text-window" name="y-name" value=""><br>  
+
+        <label class="caption" for="nick">Nowy Nick:</label><br>
+        <input type="text" id="nick" class="text-window" name="y-nick" value=""><br>
+
+        <label class="caption" for="gender">Płeć:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="choose">Mężczyzna</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="choose">Kobieta</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other" class="choose">Inna</label><br>
+
+        <label class="caption" for="section">Typ</label>
+        <select class="select-window" name="section" id="section">
+            <option value="attack">Atak</option>
+            <option value="defense">Obrona</option>
+            <option value="tank">Tank</option>
+            <option value="healer">Lekarz</option>
+            <option value="sniper">Snajper</option>
+        </select>
+
         <button type="submit" class="save-button">ZATWIERDŹ</button>
       </form> 
 </body>

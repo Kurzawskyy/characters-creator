@@ -16,7 +16,7 @@
         <input type="text" id="name" class="text-window" name="y-name" value=""><br>  
 
         <label class="caption" for="nick">Nowy Nick:</label><br>
-        <input type="text" id="nick" class="text-window" name="y-nick" value=""><br>
+        <input type="text" id="nick" class="text-window" name="y-nick" value=""><br> <br>
 
         <label class="caption" for="gender">Płeć:</label><br>
         <input type="radio" id="male" name="gender" value="male">
@@ -24,16 +24,27 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female" class="choose">Kobieta</label>
         <input type="radio" id="other" name="gender" value="other">
-        <label for="other" class="choose">Inna</label><br>
+        <label for="other" class="choose">Inna</label><br> <br>
 
-        <label class="caption" for="section">Typ</label>
+        <label class="caption" for="section">Typ:</label>
         <select class="select-window" name="section" id="section">
+            <option value=""></option>
             <option value="attack">Atak</option>
             <option value="defense">Obrona</option>
             <option value="tank">Tank</option>
             <option value="healer">Lekarz</option>
-            <option value="sniper">Snajper</option>
-        </select>
+            <option value="sniper">Snajper</option> 
+        </select> <br> <br>
+
+        <label class="caption" for="great-ability">Dodatkowa Super Zdolność:</label><br>
+        <input type="checkbox" id="high-jump" name="great-ability" value="high-jump">
+        <label for="high-jump">Wysoki wyskok w powietrze</label> <br>
+        <input type="checkbox" id="invisibility" name="great-ability" value="invisibility">
+        <label for="invisibility">Niewidzialność</label> <br>
+        <input type="checkbox" id="shield" name="great-ability" value="shield">
+        <label for="shield">Tarcza</label> <br>
+        <input type="checkbox" id="flying" name="great-ability" value="flying">
+        <label for="flying">Latanie</label>
 
         <button type="submit" class="save-button">ZATWIERDŹ</button>
       </form> 
